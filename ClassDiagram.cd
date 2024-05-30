@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="FINAL_PROJECT_CPE262.ClassDB" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAABBAQQAAAAAAAEAEAEAAAEAAAAAABAAAQA=</HashCode>
+      <FileName>ClassDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.AddParent" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIQAgJEDAVAEQAJgSMAAACELEDIBAABIAAgArAAIA=</HashCode>
+      <FileName>Forms\AddParent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SID" />
+      <Property Name="PID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.AddScore" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAIiARKgWIBSSBADEAACCAEEioLgkBIAwQApRCIA=</HashCode>
+      <FileName>Forms\AddScore.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.AddStudent" Collapsed="true">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAYM5IjiRKCWgBQyBADEAMICFiUDIbEQQIhQQAPACIA=</HashCode>
+      <FileName>Forms\AddStudent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TID" />
+      <Property Name="SID" />
+      <Property Name="PID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.AddTeacher" Collapsed="true">
+    <Position X="19.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAIyDRCAUIBQSBgCEAQAOAiFKIRGIAYhAQgLAGIA=</HashCode>
+      <FileName>Forms\AddTeacher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TID" />
+      <Property Name="SID" />
+      <Property Name="PID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.SchoolInfo" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAQAgAACAcAEQABACMAIACABACCBAAAYAABA4AAIA=</HashCode>
+      <FileName>Forms\SchoolInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.AdminForm" Collapsed="true">
+    <Position X="15" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CUAKAAhAACAGJJAAQQCAEAQGoCCZAAAHAAEAQSDACAA=</HashCode>
+      <FileName>AdminForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TID" />
+      <Property Name="SID" />
+      <Property Name="PID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.ParentForm" Collapsed="true">
+    <Position X="17.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CUAKACAAQCIEJJAAQQCAkAQGoACIAAAGAAAARSDACAE=</HashCode>
+      <FileName>ParentForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TID" />
+      <Property Name="SID" />
+      <Property Name="PID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.TeacherForm" Collapsed="true">
+    <Position X="21.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CUBKACAAQCIUJJAASQCAkAQGoACYAAAGEAAARSDACAE=</HashCode>
+      <FileName>TeacherForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TID" />
+      <Property Name="SID" />
+      <Property Name="PID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.SignIn" Collapsed="true">
+    <Position X="26" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ogCAADgAATgQBASAAASOwAgKUAEBIFAAAEIAAQBAAQg=</HashCode>
+      <FileName>SignIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_AdvisoryClass" Collapsed="true">
+    <Position X="25.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAKAgQgIAiAWAASJAiDAgAKiEsAggIAwAIAIQ4nACtI=</HashCode>
+      <FileName>UserControls\UC_AdvisoryClass.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PID" />
+      <Property Name="SID" />
+      <Property Name="TID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Windows.Forms.UserControl" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Archive" Collapsed="true">
+    <Position X="23.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQKAgQgIBqAWAASJAiDEgAKiEsAgAIAQAIAIQykAANI=</HashCode>
+      <FileName>UserControls\UC_Archive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Attendance" Collapsed="true">
+    <Position X="21.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wSKRCRgYBqyeNAQhQMXkjYnyU/646OAqhbiia1r4PFA=</HashCode>
+      <FileName>UserControls\UC_Attendance.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_AYQuarter" Collapsed="true">
+    <Position X="28" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAhAhiIBrAQEBURACGAACDi8gA4p5MgBAAAxw5gBAI=</HashCode>
+      <FileName>UserControls\UC_AYQuarter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Classes" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAARAViIIaAwYFSbAESAlQgiFIAgoMGwgrgIWRJRRMA=</HashCode>
+      <FileName>UserControls\UC_Classes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Dashboard" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAAAAAAACAAAACAAAIAAAAAAAAAAABAAE=</HashCode>
+      <FileName>UserControls\UC_Dashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Profile" Collapsed="true">
+    <Position X="19" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wCgiAiQIjAQsTQhIBOAKAQCUIViIsINkQACRwKBDpI=</HashCode>
+      <FileName>UserControls\UC_Profile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PID" />
+      <Property Name="STID" />
+      <Property Name="TID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Score" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gUIBkYg5Bv0WNATpAEDUy4KjOOAggNooBLAg41oRKMI=</HashCode>
+      <FileName>UserControls\UC_Score.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Section" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAiIAiAUABQAAADAgQCiEoAggNUiAIAAV0JQAEI=</HashCode>
+      <FileName>UserControls\UC_Section.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_StudentAttendance" Collapsed="true">
+    <Position X="16.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAgAAqgeFAQhQIXMgAGCUNIYSMACAZCgY5hYGkA=</HashCode>
+      <FileName>UserControls\UC_StudentAttendance.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SID" />
+      <Property Name="TID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Subjects" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iQSDAQiIJKASTBYTAQKEkIKikIYggNAgAJJIeUJBANI=</HashCode>
+      <FileName>UserControls\UC_Subjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_Teacher" Collapsed="true">
+    <Position X="30.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAIAgQgIAyAUAAQBAgDIgAKiEsAggIAwAAAIQ4jACsI=</HashCode>
+      <FileName>UserControls\UC_Teacher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PID" />
+      <Property Name="SID" />
+      <Property Name="TID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.UserControls.UC_TeacherProfile" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8wCgiAiQIjAQATQhIAKAKAQKEAFCIoIEEQAAQwKBDAI=</HashCode>
+      <FileName>UserControls\UC_TeacherProfile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PID" />
+      <Property Name="TID" />
+      <Property Name="STID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FINAL_PROJECT_CPE262.SchoolManagementSystemDataSet" Collapsed="true">
+    <Position X="3.25" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAwAAAAJABAAAQAgAAAgCQBgAAAAAAAGABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Data.DataSet" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="System.Int32" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
